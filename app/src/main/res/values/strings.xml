@@ -3,4 +3,11 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="loading_projects">loading</string>
+    <string name="github_projects">githubプロジェクト</string>
+    <string name="project_list">プロジェクト一覧</string>
+    <string name="project_name">プロジェクト名</string>
+    <string name="languages">言語: %s</string>
+    <string name="watchers">ウォッチ数: %s</string>
+
 </resources>
