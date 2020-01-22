@@ -16,7 +16,8 @@ abstract class MyApplicationModule {
 @Singleton
 @Component(modules = [
     AndroidInjectionModule::class, // よりシンプルにDIできる公式の便利Module(必須)
-    MyApplicationModule::class
+    MyApplicationModule::class,
+    MainActivityBuilder::class
 ])
 interface MyApplicationComponent: AndroidInjector<MyApplication> {
     @Component.Factory
